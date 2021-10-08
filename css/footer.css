@@ -21,7 +21,12 @@
 
 #copyright {
 	background-color: #444;
-	padding: 1rem;
+	padding: 2rem;
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 
 #copyright p {
@@ -29,19 +34,6 @@
 	color: #ccc;
 }
 
-#copyright span img {
-	width: 4rem;
-	background-position: center;
-	margin: 1rem;
-}
-
-#copyright span {
-	width: 200px;
-	height: 200px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
 
 @media only screen and (max-width: 700px){
 	main {
