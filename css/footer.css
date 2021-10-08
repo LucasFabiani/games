@@ -1,0 +1,60 @@
+.link-list {
+	display: flex;
+	padding: 1.25rem;
+	align-content: space-between;
+	justify-content: center;
+	align-items: center;
+}
+
+.link-item {
+	list-style: none;
+	padding: 0.75rem;
+	color: white;
+}
+
+.link-item a {
+	text-align: center;
+	text-decoration: none;
+	color: white;
+}
+
+
+#copyright {
+	background-color: #444;
+	padding: 1rem;
+}
+
+#copyright p {
+	text-align: center;
+	color: #ccc;
+}
+
+#copyright span img {
+	width: 4rem;
+	background-position: center;
+	margin: 1rem;
+}
+
+#copyright span {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@media only screen and (max-width: 700px){
+	main {
+		padding: 1rem;
+		width: 100%;
+	}
+	.link-list {
+		display: block;
+	}
+
+	.link-item {
+		display: block;
+		
+	}
+}
+
