@@ -197,7 +197,7 @@ nav{
 @media screen and (max-width: 600px) {
 	#collapse-btn {
 		visibility: visible;
-	}
+	} 
 	.game {
 		flex-wrap: wrap;
 	}
