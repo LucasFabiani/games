@@ -194,6 +194,10 @@ nav{
 	border-radius: 20px;
 }
 
+.social-icon {
+	width: 50px;
+}
+
 @media screen and (max-width: 600px) {
 	#collapse-btn {
 		visibility: visible;

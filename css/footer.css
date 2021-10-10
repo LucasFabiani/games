@@ -1,6 +1,7 @@
 .link-list {
+	background-color: var(--light-gray);
 	display: flex;
-	padding: 1.25rem;
+	padding: 0.5rem;
 	align-content: space-between;
 	justify-content: center;
 	align-items: center;
@@ -15,7 +16,7 @@
 .link-item a {
 	text-align: center;
 	text-decoration: none;
-	color: white;
+	color: var(--gray);
 }
 
 
