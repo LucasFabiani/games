@@ -1,6 +1,8 @@
 var collapseBtn = document.getElementById('collapse-btn');
 var navbarCollapse = document.getElementById('nav-bar__collapse');
-let collapsed = true;
+let collapsed = false;
+
+
 
 collapseBtn.addEventListener("click",function(){
 	if(collapsed){
@@ -13,3 +15,4 @@ collapseBtn.addEventListener("click",function(){
 	collapsed = !collapsed
 
 })
+

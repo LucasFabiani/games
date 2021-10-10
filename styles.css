@@ -52,7 +52,8 @@ nav{
 
 #nav-bar__collapse {
 	background-color: #121212;
-	height: 300px;
+	height: 0;
+	visibility: hidden;
 }
 
 .
@@ -77,7 +78,7 @@ nav{
 	padding: 10px;
 	width: 40px;
 	float: right;
-	visibility: hidden;
+	visibility: visible;
 }
 
 .nav-list {
@@ -145,6 +146,7 @@ nav{
 	margin: 10px;
 	border-radius: 20px;
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .game-info {
@@ -182,38 +184,39 @@ nav{
 }
 
 .game__icon {
-	padding: 10px;
 	display: flex;
 	align-items: center;
+	width: 100%;
+	padding: 0;
 }
 .game__icon img{
-	width: 200px;
+	width: 100%;
+	border-radius: 20px 20px 0 0;
 	height: 200px;
 	object-fit: cover;
 	object-position: center;
-	border-radius: 20px;
 }
 
 .social-icon {
 	width: 50px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
 	#collapse-btn {
-		visibility: visible;
+		visibility: hidden;
 	} 
+
 	.game {
-		flex-wrap: wrap;
+		flex-wrap: nowrap;
 	}
 
 	.game__icon{
-		width: 100%;
-		padding: 0;
+		padding: 10px;
 	}
 
 	.game__icon img{
-		width: 100%;
-		border-radius: 20px 20px 0 0;
+		width: 200px;
+		border-radius: 20px;
 	}
 	}
 }
