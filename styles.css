@@ -54,9 +54,17 @@ nav{
 	background-color: #121212;
 	height: 0;
 	visibility: hidden;
+	animation: 0.5s 1 alternate close;
 }
 
-.
+@keyframes close{
+	from {
+		height: 300px;
+	}
+	to {
+		height: 0;
+	}
+}
 
 .icon {
 	width: 50px;
