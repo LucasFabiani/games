@@ -40,3 +40,7 @@ collapseBtn.addEventListener("click",function(){
 	collapsed = !collapsed
 
 })
+
+var ic = document.getElementsByClassName('img-carrousel')[0];
+ic.addEventListener('touchstart',(e)=>console.log(e))
+console.log(ic)
